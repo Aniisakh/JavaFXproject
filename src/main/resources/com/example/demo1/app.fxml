@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Hello_Controller">
+    <children>
+        <AnchorPane layoutY="111.0" prefHeight="289.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label alignment="CENTER" layoutX="70.0" layoutY="21.0" prefHeight="31.0" prefWidth="572.0" text="Hello world!" textAlignment="CENTER" textFill="#6f6f66">
+                    <font>
+                        <Font name="AGRevueCyr Roman Medium" size="26.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="256.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/assets/yerevan.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label alignment="CENTER" layoutX="61.0" layoutY="19.0" prefHeight="75.0" prefWidth="579.0" text="My APP" textAlignment="CENTER" textFill="#f8f8ef">
+            <font>
+                <Font name="AGRevueCyr Italic" size="33.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

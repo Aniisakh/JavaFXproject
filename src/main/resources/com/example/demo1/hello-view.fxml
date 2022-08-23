@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <AnchorPane layoutY="111.0" prefHeight="289.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <TextField fx:id="login_field" layoutX="221.0" layoutY="67.0" prefHeight="37.0" prefWidth="291.0" promptText="Login" style="-fx-background-color: #;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="password_field" layoutX="222.0" layoutY="127.0" prefHeight="37.0" prefWidth="291.0" promptText="Password">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label alignment="CENTER" layoutX="61.0" layoutY="21.0" prefHeight="31.0" prefWidth="572.0" text="Autorisation" textAlignment="CENTER" textFill="#6f6f66">
+               <font>
+                  <Font name="AGRevueCyr Roman Medium" size="26.0" />
+               </font>
+            </Label>
+            <Button fx:id="signin_btn" layoutX="305.0" layoutY="189.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="102.0" style="-fx-background-color: F39C63;" text="Sign in" textFill="#f8f0f0">
+               <font>
+                  <Font name="AGRevueCyr Roman Medium" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="61.0" layoutY="19.0" prefHeight="75.0" prefWidth="579.0" text="My APP" textAlignment="CENTER" textFill="#f8f8ef">
+         <font>
+            <Font name="AGRevueCyr Italic" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="signup_btn" layoutX="584.0" layoutY="15.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="102.0" style="-fx-background-color: F39C63;" text="Sign up" textFill="#f8f0f0">
+         <font>
+            <Font name="AGRevueCyr Roman Medium" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
